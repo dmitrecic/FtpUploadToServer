@@ -1,5 +1,14 @@
 <?php
 
+/*
+| SIMPLE PHP FTP Upload class
+| Upload a file from one website to other website(s) with PHP
+| Author: Dragutin Mitrecic
+| Contact: dmitrecic(at)gmail.com
+| Last update: September 2018.
+| 
+*/
+
 class FtpUploadToServer
 {
     const VERSION="1.1";            // this version - just for fun :)
