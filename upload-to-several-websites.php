@@ -2,7 +2,8 @@
 require("classes/FtpUploadToServer.class.php");
 
 //
-// insert all websites, where you would like to connect and upload your file, into array
+// If you want to upload one file to several websites via FTP, here is how to use:
+// Insert all websites, where you would like to connect and upload your file, into array
 // with FTP details as follows:
 //
 
@@ -14,7 +15,7 @@ $websites=array(
 
 
 //
-// now loop array and upload file to each of those websites 
+// Now loop array and upload file to each of those websites 
 //
 
 foreach($websites as $website=>$ftpdata){
