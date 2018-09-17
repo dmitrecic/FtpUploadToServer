@@ -1,7 +1,7 @@
 <?php
-require("classes/FtpUploadToServer.class.php");
+require("FtpUploadToServer.class.php");
 
-$ftp=new FtpUploadToServer("croatia-accommodation.info","testclass","d02061973","21");
+$ftp=new FtpUploadToServer("example.com","username","password","21");
 $ftp->setShowMessages(1);
 $ftp->setShowStatus(1);
 $ftp->setCreateFolder(1);
