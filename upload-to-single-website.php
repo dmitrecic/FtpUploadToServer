@@ -4,7 +4,7 @@
 // Example as follows
 // you can loop if there is more then one website where you need to upload your file
 // include class file
-require("class/FtpUploadToServer.class.php");
+require("classes/FtpUploadToServer.class.php");
 
 // initialize class (format: "ftp server name", "ftp username", "ftp password", "ftp port")
 
