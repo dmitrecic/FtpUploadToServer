@@ -1,5 +1,5 @@
 <?php
-require("classes/FtpUploadToServer.class.php");
+require("class/FtpUploadToServer.class.php");
 
 //
 // If you want to upload one file to several websites via FTP, here is how to use:
